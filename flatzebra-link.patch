@@ -1,0 +1,11 @@
+--- flatzebra-0.1.0/src/flatzebra/Makefile.am.orig	Sat Apr 26 06:19:06 2003
++++ flatzebra-0.1.0/src/flatzebra/Makefile.am	Wed Oct 15 15:30:51 2003
+@@ -25,7 +25,7 @@
+ 	-I$(top_srcdir)/src
+ 
+ libflatzebra_0_1_la_LIBADD = \
+-	$(SDL_LIBS)
++	$(SDL_LIBS) -lSDL_image -lSDL_mixer
+ 
+ pkgincludedir = $(includedir)/$(PACKAGE)-$(API)/$(PACKAGE)
+ pkginclude_HEADERS = \
