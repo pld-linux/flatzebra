@@ -1,23 +1,23 @@
 Summary:	A Generic Game Engine library for 2D double-buffering animation
 Summary(pl):	Ogólny silnik gier z podwójnie buforowan± animacj± 2D
 Name:		flatzebra
-Version:	0.1.0
+Version:	0.1.1
 Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://www3.sympatico.ca/sarrazip/dev/%{name}-%{version}.tar.gz
-# Source0-md5:	c628b75dc88f678e0c9f89be9bf1448c
+# Source0-md5:	c6c2002f9da4d4dca4934ce41c094965
 Patch0:		%{name}-link.patch
-BuildRequires:	SDL-devel >= 1.2.4
-BuildRequires:	SDL_image-devel >= 1.2.2
-BuildRequires:	SDL_mixer-devel >= 1.2.4
+BuildRequires:	SDL-devel >= 1.2.7
+BuildRequires:	SDL_image-devel >= 1.2.3
+BuildRequires:	SDL_mixer-devel >= 1.2.5
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
-Requires:	SDL >= 1.2.4
-Requires:	SDL_image >= 1.2.2
-Requires:	SDL_mixer >= 1.2.4
+Requires:	SDL >= 1.2.7
+Requires:	SDL_image >= 1.2.3
+Requires:	SDL_mixer >= 1.2.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
