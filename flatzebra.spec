@@ -15,6 +15,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 Requires:	SDL >= 1.2.7
 Requires:	SDL_image >= 1.2.3
 Requires:	SDL_mixer >= 1.2.5
