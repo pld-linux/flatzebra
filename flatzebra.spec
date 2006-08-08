@@ -67,7 +67,7 @@ Statyczna biblioteka FlatZebra.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
 
 %build
 # supplied libtool is broken (no C++ support)
