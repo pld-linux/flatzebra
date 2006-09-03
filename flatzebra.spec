@@ -22,12 +22,12 @@ Requires:	SDL_mixer >= 1.2.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Generic Game Engine library suitable for BurgerSpace, Afternoon Stalker
-and Cosmosmash.
+Generic Game Engine library suitable for BurgerSpace, Afternoon
+Stalker and Cosmosmash.
 
 %description -l fr
-Moteur de jeu générique utilisé par BurgerSpace, Afternoon Stalker
-et Cosmosmash.
+Moteur de jeu générique utilisé par BurgerSpace, Afternoon Stalker et
+Cosmosmash.
 
 %description -l pl
 Biblioteka ogólnego silnika gier s³u¿±ca miêdzy innymi dla gier
@@ -38,7 +38,7 @@ Summary:	C++ header files for FlatZebra library
 Summary(fr):	En-têtes C++ pour la librairie FlatZebra
 Summary(pl):	Pliki nag³ówkowe C++ biblioteki FlatZebra
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	SDL-devel >= 1.2.4
 Requires:	SDL_image-devel >= 1.2.2
 Requires:	SDL_mixer-devel >= 1.2.4
@@ -57,7 +57,7 @@ Pliki nag³ówkowe C++ biblioteki FlatZebra.
 Summary:	Static FlatZebra library
 Summary(pl):	Statyczna biblioteka FlatZebra
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static FlatZebra library.
