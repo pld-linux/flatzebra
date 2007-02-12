@@ -1,5 +1,5 @@
 Summary:	A Generic Game Engine library for 2D double-buffering animation
-Summary(pl):	Ogólny silnik gier z podwójnie buforowan± animacj± 2D
+Summary(pl.UTF-8):   OgÃ³lny silnik gier z podwÃ³jnie buforowanÄ… animacjÄ… 2D
 Name:		flatzebra
 Version:	0.1.1
 Release:	1
@@ -25,18 +25,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Generic Game Engine library suitable for BurgerSpace, Afternoon
 Stalker and Cosmosmash.
 
-%description -l fr
-Moteur de jeu générique utilisé par BurgerSpace, Afternoon Stalker et
+%description -l fr.UTF-8
+Moteur de jeu gÃ©nÃ©rique utilisÃ© par BurgerSpace, Afternoon Stalker et
 Cosmosmash.
 
-%description -l pl
-Biblioteka ogólnego silnika gier s³u¿±ca miêdzy innymi dla gier
+%description -l pl.UTF-8
+Biblioteka ogÃ³lnego silnika gier sÅ‚uÅ¼Ä…ca miÄ™dzy innymi dla gier
 BurgerSpace, Afternoon Stalker i Cosmosmash.
 
 %package devel
 Summary:	C++ header files for FlatZebra library
-Summary(fr):	En-têtes C++ pour la librairie FlatZebra
-Summary(pl):	Pliki nag³ówkowe C++ biblioteki FlatZebra
+Summary(fr.UTF-8):   En-tÃªtes C++ pour la librairie FlatZebra
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe C++ biblioteki FlatZebra
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	SDL-devel >= 1.2.4
@@ -47,22 +47,22 @@ Requires:	libstdc++-devel
 %description devel
 C++ header files for FlatZebra library.
 
-%description devel -l fr
-En-têtes C++ pour la librairie FlatZebra.
+%description devel -l fr.UTF-8
+En-tÃªtes C++ pour la librairie FlatZebra.
 
-%description devel -l pl
-Pliki nag³ówkowe C++ biblioteki FlatZebra.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe C++ biblioteki FlatZebra.
 
 %package static
 Summary:	Static FlatZebra library
-Summary(pl):	Statyczna biblioteka FlatZebra
+Summary(pl.UTF-8):   Statyczna biblioteka FlatZebra
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static FlatZebra library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka FlatZebra.
 
 %prep
