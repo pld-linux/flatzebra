@@ -1,5 +1,5 @@
 Summary:	A Generic Game Engine library for 2D double-buffering animation
-Summary(pl.UTF-8):   Ogólny silnik gier z podwójnie buforowaną animacją 2D
+Summary(pl.UTF-8):	Ogólny silnik gier z podwójnie buforowaną animacją 2D
 Name:		flatzebra
 Version:	0.1.1
 Release:	1
@@ -35,8 +35,8 @@ BurgerSpace, Afternoon Stalker i Cosmosmash.
 
 %package devel
 Summary:	C++ header files for FlatZebra library
-Summary(fr.UTF-8):   En-têtes C++ pour la librairie FlatZebra
-Summary(pl.UTF-8):   Pliki nagłówkowe C++ biblioteki FlatZebra
+Summary(fr.UTF-8):	En-têtes C++ pour la librairie FlatZebra
+Summary(pl.UTF-8):	Pliki nagłówkowe C++ biblioteki FlatZebra
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	SDL-devel >= 1.2.4
@@ -55,7 +55,7 @@ Pliki nagłówkowe C++ biblioteki FlatZebra.
 
 %package static
 Summary:	Static FlatZebra library
-Summary(pl.UTF-8):   Statyczna biblioteka FlatZebra
+Summary(pl.UTF-8):	Statyczna biblioteka FlatZebra
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
